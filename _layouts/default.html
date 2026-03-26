@@ -24,14 +24,39 @@
         {{ content }}
       </main>
 
-      <footer>
-        <!-- Contact Info -->
-        <p>
-          📧 <a href="mailto:{{ site.email }}">{{ site.email }}</a> | 
-          💻 <a href="{{ site.github.owner_url }}">GitHub Profile</a>
-        </p>
+      <footer class="custom-footer">
+        <div class="footer-container">
+          
+          <div class="footer-brand">
+            <h2>🚀 AI Tools Guide</h2>
+            <p>Review dan panduan AI tools terbaik untuk productivity dan bisnis.</p>
+          </div>
+          
+          <div class="footer-links">
+            <h3>Menu</h3>
+            <ul>
+              <li><a href="/">Home</a></li>
+              <li><a href="/about.html">About</a></li>
+              <li><a href="mailto:{{ site.email }}">Contact</a></li>
+              <li><a href="/privacy-policy.html">Privacy Policy</a></li>
+            </ul>
+          </div>
+          
+          <div class="footer-social">
+            <h3>Follow</h3>
+            <div class="social-icons">
+              <a href="https://github.com/{{ site.github_username }}" target="_blank">💻</a>
+              <a href="#" target="_blank">📘</a>
+              <a href="#" target="_blank">🐦</a>
+              <a href="#" target="_blank">📸</a>
+            </div>
+          </div>
+          
+        </div>
         
-        <p><small>© 2026 AI Tools Guide • Hosted on GitHub Pages</small></p>
+        <div class="footer-bottom">
+          <p>© 2026 AI Tools Guide. All rights reserved. • Hosted on GitHub Pages</p>
+        </div>
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
