@@ -136,11 +136,11 @@ article li {
   box-sizing: border-box;
 }
 
-/* Homepage Hero Section - COMPACT with NEW COLOR */
+/* Homepage Hero Section - COMPACT & CLEAN */
 .homepage-hero {
   text-align: center;
   padding: 25px 20px;
-  background: linear-gradient(135deg, #0366d6 0%, #024ea1 100%); /* CHANGED: Blue gradient */
+  background: linear-gradient(135deg, #0366d6 0%, #024ea1 100%);
   color: white;
   border-radius: 10px;
   margin-bottom: 30px;
@@ -148,37 +148,20 @@ article li {
 }
 
 .hero-title {
-  font-size: 2em;
-  margin-bottom: 10px;
+  font-size: 1.8em;
+  margin-bottom: 8px;
   font-weight: 700;
 }
 
 .hero-subtitle {
-  font-size: 1.1em;
+  font-size: 1em;
   opacity: 0.9;
   max-width: 600px;
   margin: 0 auto;
   line-height: 1.4;
 }
 
-/* Featured Section */
-.featured-section {
-  text-align: center;
-  margin-bottom: 30px;
-  padding-bottom: 20px;
-  border-bottom: 2px solid #159957;
-}
 
-.section-title {
-  font-size: 1.8em;
-  color: #155799;
-  margin-bottom: 10px;
-}
-
-.section-description {
-  color: #666;
-  font-size: 1.1em;
-}
 
 /* Article Cards */
 .article-grid {

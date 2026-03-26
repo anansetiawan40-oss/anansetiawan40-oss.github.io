@@ -5,13 +5,8 @@ description: "Review dan panduan AI tools terbaik untuk productivity dan bisnis"
 ---
 
 <div class="homepage-hero">
-  <h1 class="hero-title">🚀 AI Tools Guide - Updated</h1>
-  <p class="hero-subtitle">Temukan tools AI terbaik untuk meningkatkan produktivitas dan bisnis Anda | Design Updated</p>
-</div>
-
-<div class="featured-section">
-  <h2 class="section-title">📚 Artikel Terbaru</h2>
-  <p class="section-description">Update terbaru seputar AI tools dan teknologi</p>
+  <h1 class="hero-title">🚀 AI Tools Guide</h1>
+  <p class="hero-subtitle">Review dan panduan AI tools terbaik untuk productivity dan bisnis</p>
 </div>
 
 {% include article-cards.html %}
