@@ -5,6 +5,7 @@ date: 2026-03-26
 categories: [AI Tools, Tutorial, Image Generation]
 author: Anan Setiawan
 excerpt: "Tutorial lengkap membuat AI images dengan Midjourney untuk pemula. Dari setup hingga monetization."
+image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
 ---
 
 <div class="image-container">

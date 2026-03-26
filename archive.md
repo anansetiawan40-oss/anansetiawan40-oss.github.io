@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Archive - Semua Artikel"
-permalink: /archive/
+permalink: /archive.html
 ---
 
 <div class="archive-header">
