@@ -6,7 +6,10 @@ categories: [AI Tools, Tutorial, Image Generation]
 author: Anan Setiawan
 ---
 
-![AI Image Generation](https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80)
+<div class="image-container">
+  <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="AI Image Generation">
+  <span class="image-caption">Contoh AI-generated image dari Midjourney - Image dari Unsplash</span>
+</div>
 
 Midjourney adalah salah satu tools **AI image generation** terpopuler saat ini. Dengan Midjourney, Anda bisa membuat gambar profesional hanya dengan menulis deskripsi teks (prompt). Berikut panduan lengkap untuk pemula.
 
@@ -33,7 +36,10 @@ Midjourney punya beberapa plan:
 - **Standard** ($30/bulan) - Unlimited (relaxed)
 - **Pro** ($60/bulan) - Unlimited + stealth mode
 
-![Midjourney Pricing](https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=60)
+<div class="image-container">
+  <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=60" alt="Midjourney Pricing">
+  <span class="image-caption">Ilustrasi pricing plans untuk AI tools - Image dari Unsplash</span>
+</div>
 
 ## Langkah 2: Memahami Prompt Engineering
 
@@ -64,7 +70,10 @@ Prompt adalah **kunci sukses** di Midjourney. Format dasar:
 4. **Tekan Enter** dan tunggu 60 detik
 5. **Pilih gambar** dari 4 options yang dihasilkan
 
-![Midjourney Interface](https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=60)
+<div class="image-container">
+  <img src="https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=60" alt="Midjourney Interface">
+  <span class="image-caption">Interface AI tools biasanya user-friendly - Image dari Unsplash</span>
+</div>
 
 ## Langkah 4: Upscale dan Variations
 
@@ -117,7 +126,10 @@ Gunakan `--sref` untuk konsisten style:
 /imagine prompt: motivational quote background, abstract shapes, soft gradients, inspirational, Instagram post --ar 1:1
 ```
 
-![AI Art Examples](https://images.unsplash.com/photo-1635070041078-e363dbe005cb?ixlib=rb-4.0.3&auto=format&fit=crop&w-800&q=60)
+<div class="image-container">
+  <img src="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=60" alt="AI Art Examples">
+  <span class="image-caption">Contoh artwork yang bisa dibuat dengan AI - Image dari Unsplash</span>
+</div>
 
 ## Common Mistakes Pemula
 
