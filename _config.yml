@@ -9,70 +9,20 @@ github_username: "anansetiawan40-oss"
 
 # Build settings
 markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
+theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-include-cache
 
-# Minimal Mistakes theme settings
-minimal_mistakes_skin: "default" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum"
-search: true
-comments:
-  provider: "" # false, "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
-  disqus:
-    shortname: "" # your disqus shortname
-
-# Exclude from processing
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
-
-# SEO settings
-google_analytics: "" # Add your GA tracking ID later
-
-# Social links
-social_links:
-  twitter: ""
-  github:  "anansetiawan40-oss"
-
-# Defaults
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "single"
-      author: "Anan Setiawan"
-      categories: "AI Tools"
-      read_time: true
-      comments: false
-      share: true
-      related: true
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "single"
-      comments: false
+# Theme settings
+show_excerpts: true
 
 # Navigation
-navigation:
+nav:
   - title: "Home"
     url: /
   - title: "About"
     url: /about/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
-  - title: "Archive"
-    url: /year-archive/
 
 # Footer
 footer:
@@ -83,11 +33,3 @@ footer:
     - label: "Email"
       icon: "fas fa-envelope"
       url: "mailto:ansefm15@gmail.com"
-
-# Comments (optional)
-# disqus:
-#   shortname: your-disqus-shortname
-
-# Pagination
-paginate: 5
-paginate_path: "/page:num/"

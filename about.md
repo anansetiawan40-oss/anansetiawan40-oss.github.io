@@ -1,8 +1,7 @@
 ---
-layout: single
+layout: page
 title: "Tentang Kami"
 permalink: /about/
-author_profile: true
 ---
 
 ## Tentang AI Tools Guide

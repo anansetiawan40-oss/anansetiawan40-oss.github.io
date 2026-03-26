@@ -1,8 +1,7 @@
 ---
-layout: home
+layout: default
 title: "AI Tools Guide"
 subtitle: "Review dan panduan AI tools terbaik untuk productivity"
-author_profile: true
 ---
 
 ## Selamat Datang di AI Tools Guide! 🚀
