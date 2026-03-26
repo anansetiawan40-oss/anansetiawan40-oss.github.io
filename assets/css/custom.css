@@ -8,7 +8,7 @@
   display: inline-block;
   margin: 0 8px;
   padding: 8px 16px;
-  background-color: #159957;
+  background-color: #0366d6; /* CHANGED: Blue instead of green */
   color: white;
   text-decoration: none;
   border-radius: 5px;
@@ -19,13 +19,13 @@
 }
 
 .site-nav .btn:hover {
-  background-color: #1a7c47;
+  background-color: #0256b6; /* CHANGED: Darker blue */
   transform: translateY(-1px);
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
 }
 
 .site-nav .btn.active {
-  background-color: #0d7240;
+  background-color: #024ea1; /* CHANGED: Even darker blue */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
 }
 
@@ -136,15 +136,15 @@ article li {
   box-sizing: border-box;
 }
 
-/* Homepage Hero Section - COMPACT */
+/* Homepage Hero Section - COMPACT with NEW COLOR */
 .homepage-hero {
   text-align: center;
   padding: 25px 20px;
-  background: linear-gradient(135deg, #159957 0%, #155799 100%);
+  background: linear-gradient(135deg, #0366d6 0%, #024ea1 100%); /* CHANGED: Blue gradient */
   color: white;
   border-radius: 10px;
   margin-bottom: 30px;
-  box-shadow: 0 5px 20px rgba(21, 89, 153, 0.15);
+  box-shadow: 0 5px 20px rgba(3, 102, 214, 0.15);
 }
 
 .hero-title {
