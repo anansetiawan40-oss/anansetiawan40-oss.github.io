@@ -136,30 +136,7 @@ article li {
   box-sizing: border-box;
 }
 
-/* Homepage Hero Section - COMPACT & CLEAN */
-.homepage-hero {
-  text-align: center;
-  padding: 25px 20px;
-  background: linear-gradient(135deg, #0366d6 0%, #024ea1 100%);
-  color: white;
-  border-radius: 10px;
-  margin-bottom: 30px;
-  box-shadow: 0 5px 20px rgba(3, 102, 214, 0.15);
-}
 
-.hero-title {
-  font-size: 1.8em;
-  margin-bottom: 8px;
-  font-weight: 700;
-}
-
-.hero-subtitle {
-  font-size: 1em;
-  opacity: 0.9;
-  max-width: 600px;
-  margin: 0 auto;
-  line-height: 1.4;
-}
 
 
 
@@ -168,7 +145,7 @@ article li {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 25px;
-  margin-top: 30px;
+  margin-top: 40px;
 }
 
 .article-card {
