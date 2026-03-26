@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Tentang Kami"
-permalink: /about/
+permalink: /about.html
 ---
 
 ## Tentang AI Tools Guide

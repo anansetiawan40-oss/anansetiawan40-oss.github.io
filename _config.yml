@@ -23,7 +23,7 @@ header_links:
   - title: "🏠 Home"
     url: /
   - title: "📖 About"
-    url: /about/
+    url: /about.html
   - title: "📚 Archive"
     url: /archive.html
 
@@ -35,4 +35,4 @@ stylesheets:
 footer_contact: true
 
 # Build timestamp for cache busting
-build_timestamp: "2026-03-26-12:56-FOOTER"
+build_timestamp: "2026-03-26-13:04-FIX-LINKS"
