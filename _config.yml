@@ -18,7 +18,14 @@ plugins:
 show_excerpts: true
 
 # Navigation
-nav:
+header_pages:
+  - about.md
+  - _pages/categories.md
+  - _pages/tags.md
+  - _pages/archive.md
+
+show_header: true
+header_links:
   - title: "Home"
     url: /
   - title: "About"
@@ -30,12 +37,9 @@ nav:
   - title: "Archive"
     url: /archive/
 
-# Footer
-footer:
-  links:
-    - label: "GitHub"
-      icon: "fab fa-github"
-      url: "https://github.com/anansetiawan40-oss"
-    - label: "Email"
-      icon: "fas fa-envelope"
-      url: "mailto:ansefm15@gmail.com"
+# Custom CSS
+stylesheets:
+  - /assets/css/custom.css
+
+# Footer contact
+footer_contact: true

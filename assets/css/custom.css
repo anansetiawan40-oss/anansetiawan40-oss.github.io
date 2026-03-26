@@ -1,0 +1,75 @@
+/* Custom CSS for navigation */
+.site-nav {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.site-nav .btn {
+  display: inline-block;
+  margin: 0 5px;
+  padding: 8px 16px;
+  background-color: #159957;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.site-nav .btn:hover {
+  background-color: #1a7c47;
+  text-decoration: none;
+}
+
+.site-nav .btn.active {
+  background-color: #0d7240;
+  font-weight: bold;
+}
+
+.home-btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 6px 12px;
+  background-color: #0366d6;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 13px;
+}
+
+.home-btn:hover {
+  background-color: #0256b6;
+  text-decoration: none;
+}
+
+/* Mobile responsive */
+@media screen and (max-width: 768px) {
+  .site-nav .btn {
+    display: block;
+    margin: 5px auto;
+    width: 80%;
+    max-width: 200px;
+  }
+  
+  .home-btn {
+    display: block;
+    margin: 10px auto;
+    width: 80%;
+    max-width: 200px;
+  }
+}
+
+/* Footer styling */
+footer p {
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+footer a {
+  color: #0366d6;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,24 @@
+<header class="page-header" role="banner">
+  <h1 class="project-name">
+    <a href="{{ site.url }}" style="color: inherit; text-decoration: none;">
+      {{ site.title | default: site.github.repository_name }}
+    </a>
+  </h1>
+  <h2 class="project-tagline">
+    {{ site.description | default: site.github.project_tagline }}
+  </h2>
+  
+  <!-- Navigation Menu -->
+  <nav class="site-nav">
+    {% for link in site.header_links %}
+      <a href="{{ link.url }}" class="btn{% if page.url == link.url %} active{% endif %}">
+        {{ link.title }}
+      </a>
+    {% endfor %}
+  </nav>
+  
+  <!-- Home button for mobile/always visible -->
+  <a href="/" class="btn home-btn" style="margin-top: 10px;">
+    🏠 Home
+  </a>
+</header>
