@@ -4,6 +4,7 @@ title: "10 AI Tools untuk Productivity 2026 yang Wajib Dicoba"
 date: 2026-03-26
 categories: [Productivity, AI Tools]
 author: Anan Setiawan
+excerpt: "Temukan 10 tools AI terbaik untuk meningkatkan produktivitas di tahun 2026. Dari writing assistants hingga project management tools."
 ---
 
 AI (Artificial Intelligence) telah menjadi game-changer untuk productivity. Dengan tools yang tepat, Anda bisa menghemat waktu berjam-jam setiap hari. Berikut adalah 10 AI tools terbaik untuk productivity di tahun 2026:

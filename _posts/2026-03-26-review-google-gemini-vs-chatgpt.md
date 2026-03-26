@@ -4,6 +4,7 @@ title: "Review: Google Gemini vs ChatGPT - Mana yang Lebih Baik untuk 2026?"
 date: 2026-03-26
 categories: [AI Tools, Comparison, Review]
 author: Anan Setiawan
+excerpt: "Perbandingan mendalam Google Gemini vs ChatGPT. Mana yang lebih baik untuk kebutuhan Anda?"
 ---
 
 Perang AI assistants semakin panas di tahun 2026. Dua raksasa utama: **Google Gemini** dan **OpenAI ChatGPT** terus berinovasi. Mana yang lebih baik untuk kebutuhan Anda? Mari kita bandingkan secara detail.

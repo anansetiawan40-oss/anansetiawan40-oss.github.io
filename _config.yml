@@ -24,6 +24,8 @@ header_links:
     url: /
   - title: "📖 About"
     url: /about/
+  - title: "📚 Archive"
+    url: /archive/
 
 # Custom CSS
 stylesheets:

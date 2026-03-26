@@ -4,6 +4,7 @@ title: "Cara Membuat AI Images dengan Midjourney untuk Pemula"
 date: 2026-03-26
 categories: [AI Tools, Tutorial, Image Generation]
 author: Anan Setiawan
+excerpt: "Tutorial lengkap membuat AI images dengan Midjourney untuk pemula. Dari setup hingga monetization."
 ---
 
 <div class="image-container">

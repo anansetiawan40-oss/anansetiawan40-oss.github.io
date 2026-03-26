@@ -4,6 +4,7 @@ title: "Cara Pakai ChatGPT untuk Bisnis Kecil (Step-by-Step Guide)"
 date: 2026-03-26
 categories: [Business, AI Tools, Tutorial]
 author: Anan Setiawan
+excerpt: "Panduan lengkap menggunakan ChatGPT untuk bisnis kecil. Dari customer service hingga content creation."
 ---
 
 ChatGPT bukan hanya untuk tech enthusiasts - tools ini bisa menjadi **asisten virtual yang powerful** untuk bisnis kecil. Berikut panduan lengkap cara memanfaatkan ChatGPT untuk berbagai kebutuhan bisnis:
