@@ -18,24 +18,12 @@ plugins:
 show_excerpts: true
 
 # Navigation
-header_pages:
-  - about.md
-  - _pages/categories.md
-  - _pages/tags.md
-  - _pages/archive.md
-
 show_header: true
 header_links:
-  - title: "Home"
+  - title: "🏠 Home"
     url: /
-  - title: "About"
+  - title: "📖 About"
     url: /about/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
-  - title: "Archive"
-    url: /archive/
 
 # Custom CSS
 stylesheets:

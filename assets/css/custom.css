@@ -1,4 +1,4 @@
-/* Custom CSS for navigation */
+/* Custom CSS for simple navigation */
 .site-nav {
   margin: 20px 0;
   text-align: center;
@@ -6,39 +6,36 @@
 
 .site-nav .btn {
   display: inline-block;
-  margin: 0 5px;
-  padding: 8px 16px;
+  margin: 0 10px;
+  padding: 10px 20px;
   background-color: #159957;
   color: white;
   text-decoration: none;
-  border-radius: 4px;
-  font-size: 14px;
-  transition: background-color 0.3s;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  min-width: 120px;
 }
 
 .site-nav .btn:hover {
   background-color: #1a7c47;
-  text-decoration: none;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .site-nav .btn.active {
   background-color: #0d7240;
-  font-weight: bold;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
-.home-btn {
-  display: inline-block;
-  margin-top: 10px;
-  padding: 6px 12px;
-  background-color: #0366d6;
-  color: white;
-  text-decoration: none;
-  border-radius: 4px;
-  font-size: 13px;
+/* Blog title as home link */
+.project-name a {
+  transition: color 0.3s;
 }
 
-.home-btn:hover {
-  background-color: #0256b6;
+.project-name a:hover {
+  color: #159957;
   text-decoration: none;
 }
 
@@ -46,30 +43,33 @@
 @media screen and (max-width: 768px) {
   .site-nav .btn {
     display: block;
-    margin: 5px auto;
-    width: 80%;
-    max-width: 200px;
-  }
-  
-  .home-btn {
-    display: block;
-    margin: 10px auto;
-    width: 80%;
-    max-width: 200px;
+    margin: 8px auto;
+    width: 90%;
+    max-width: 250px;
   }
 }
 
 /* Footer styling */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #eaeaea;
+}
+
 footer p {
   margin: 10px 0;
   font-size: 14px;
+  color: #666;
 }
 
 footer a {
   color: #0366d6;
   text-decoration: none;
+  font-weight: 500;
 }
 
 footer a:hover {
   text-decoration: underline;
+  color: #024ea1;
 }
