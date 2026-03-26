@@ -33,3 +33,6 @@ stylesheets:
 
 # Footer contact
 footer_contact: true
+
+# Build timestamp for cache busting
+build_timestamp: "2026-03-26-12:26"
