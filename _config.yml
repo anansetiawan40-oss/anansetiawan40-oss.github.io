@@ -9,10 +9,19 @@ github_username: "anansetiawan40-oss"
 
 # Build settings
 markdown: kramdown
-theme: minima
+remote_theme: mmistakes/minimal-mistakes
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-include-cache
+
+# Minimal Mistakes theme settings
+minimal_mistakes_skin: "default" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum"
+search: true
+comments:
+  provider: "" # false, "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
+  disqus:
+    shortname: "" # your disqus shortname
 
 # Exclude from processing
 exclude:
@@ -38,18 +47,42 @@ defaults:
       path: ""
       type: "posts"
     values:
-      layout: "post"
+      layout: "single"
       author: "Anan Setiawan"
       categories: "AI Tools"
+      read_time: true
+      comments: false
+      share: true
+      related: true
   - scope:
       path: ""
       type: "pages"
     values:
-      layout: "page"
+      layout: "single"
+      comments: false
 
 # Navigation
-header_pages:
-  - about.md
+navigation:
+  - title: "Home"
+    url: /
+  - title: "About"
+    url: /about/
+  - title: "Categories"
+    url: /categories/
+  - title: "Tags"
+    url: /tags/
+  - title: "Archive"
+    url: /year-archive/
+
+# Footer
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/anansetiawan40-oss"
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:ansefm15@gmail.com"
 
 # Comments (optional)
 # disqus:
