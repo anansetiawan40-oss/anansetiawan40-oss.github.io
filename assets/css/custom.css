@@ -1,31 +1,37 @@
-/* Custom CSS for compact navigation */
+/* Custom CSS for PERFECT button alignment */
 .site-nav {
   margin: 15px 0;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
 }
 
 .site-nav .btn {
   display: inline-block;
-  margin: 0 8px;
-  padding: 8px 16px;
-  background-color: #0366d6; /* CHANGED: Blue instead of green */
+  padding: 7px 14px;
+  background-color: #0366d6;
   color: white;
   text-decoration: none;
-  border-radius: 5px;
-  font-size: 15px;
+  border-radius: 4px;
+  font-size: 14px;
   font-weight: 500;
   transition: all 0.2s ease;
-  min-width: 100px;
+  min-width: 90px;
+  text-align: center;
+  flex: 0 0 auto;
 }
 
 .site-nav .btn:hover {
-  background-color: #0256b6; /* CHANGED: Darker blue */
+  background-color: #0256b6;
   transform: translateY(-1px);
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
 }
 
 .site-nav .btn.active {
-  background-color: #024ea1; /* CHANGED: Even darker blue */
+  background-color: #024ea1;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
 }
 
@@ -49,33 +55,43 @@
   font-size: 1.1em;
 }
 
-/* Mobile responsive - BUTTONS SIDE-BY-SIDE */
+/* Mobile responsive - PERFECT 3-BUTTON FIT */
 @media screen and (max-width: 768px) {
+  .site-nav {
+    gap: 8px;
+  }
+  
   .site-nav .btn {
-    display: inline-block;
-    margin: 5px;
-    width: 30%;
-    min-width: auto;
-    padding: 7px 12px;
-    font-size: 14px;
+    padding: 6px 10px;
+    font-size: 13px;
+    min-width: 80px;
+    flex: 1;
+    max-width: 120px;
   }
   
   .project-name a {
-    font-size: 1.6em;
+    font-size: 1.5em;
   }
   
   .project-tagline {
-    font-size: 1em;
+    font-size: 0.95em;
   }
 }
 
-/* Extra small mobile */
+/* Extra small mobile - TIGHT BUT PERFECT FIT */
 @media screen and (max-width: 480px) {
+  .site-nav {
+    gap: 6px;
+  }
+  
   .site-nav .btn {
-    width: 28%;
-    padding: 6px 10px;
-    font-size: 13px;
-    margin: 4px;
+    padding: 5px 8px;
+    font-size: 12px;
+    min-width: 70px;
+  }
+  
+  .project-name a {
+    font-size: 1.4em;
   }
 }
 
