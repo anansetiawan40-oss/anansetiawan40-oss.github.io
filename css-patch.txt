@@ -1,0 +1,80 @@
+/* Custom CSS for compact navigation */
+.site-nav {
+  margin: 15px 0;
+  text-align: center;
+}
+
+.site-nav .btn {
+  display: inline-block;
+  margin: 0 8px;
+  padding: 8px 16px;
+  background-color: #159957;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  min-width: 100px;
+}
+
+.site-nav .btn:hover {
+  background-color: #1a7c47;
+  transform: translateY(-1px);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.site-nav .btn.active {
+  background-color: #0d7240;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+/* Blog title as home link - COMPACT */
+.project-name {
+  margin-bottom: 5px;
+}
+
+.project-name a {
+  transition: color 0.3s;
+  font-size: 1.8em;
+}
+
+.project-name a:hover {
+  color: #159957;
+  text-decoration: none;
+}
+
+.project-tagline {
+  margin-top: 5px;
+  font-size: 1.1em;
+}
+
+/* Mobile responsive - BUTTONS SIDE-BY-SIDE */
+@media screen and (max-width: 768px) {
+  .site-nav .btn {
+    display: inline-block;
+    margin: 5px;
+    width: 30%;
+    min-width: auto;
+    padding: 7px 12px;
+    font-size: 14px;
+  }
+  
+  .project-name a {
+    font-size: 1.6em;
+  }
+  
+  .project-tagline {
+    font-size: 1em;
+  }
+}
+
+/* Extra small mobile */
+@media screen and (max-width: 480px) {
+  .site-nav .btn {
+    width: 28%;
+    padding: 6px 10px;
+    font-size: 13px;
+    margin: 4px;
+  }
+}

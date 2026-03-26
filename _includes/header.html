@@ -1,5 +1,5 @@
 <header class="page-header" role="banner">
-  <!-- Blog Title as Home Link -->
+  <!-- Blog Title as Home Link - COMPACT -->
   <h1 class="project-name">
     <a href="{{ site.url }}" style="color: inherit; text-decoration: none;">
       {{ site.title | default: site.github.repository_name }}
@@ -9,7 +9,7 @@
     {{ site.description | default: site.github.project_tagline }}
   </h2>
   
-  <!-- Simple Navigation Menu - Only Home & About -->
+  <!-- Compact Navigation Menu - All buttons aligned -->
   <nav class="site-nav">
     {% for link in site.header_links %}
       <a href="{{ link.url }}" class="btn{% if page.url == link.url %} active{% endif %}">
