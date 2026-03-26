@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Cara Pakai ChatGPT untuk Bisnis Kecil (Step-by-Step Guide)"
 date: 2026-03-26
 categories: [Business, AI Tools, Tutorial]

@@ -9,7 +9,7 @@ github_username: "anansetiawan40-oss"
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-minimal
+theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
@@ -23,6 +23,12 @@ nav:
     url: /
   - title: "About"
     url: /about/
+  - title: "Categories"
+    url: /categories/
+  - title: "Tags"
+    url: /tags/
+  - title: "Archive"
+    url: /archive/
 
 # Footer
 footer:
