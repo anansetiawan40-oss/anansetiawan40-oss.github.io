@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Cara Pakai ChatGPT untuk Bisnis Kecil (Step-by-Step Guide)"
-date: 2026-03-26
+date: 2026-03-23
 categories: [Business, AI Tools, Tutorial]
 author: Anan Setiawan
 excerpt: "Panduan lengkap menggunakan ChatGPT untuk bisnis kecil. Dari customer service hingga content creation."
