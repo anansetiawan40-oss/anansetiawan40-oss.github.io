@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Cuma Modal HP! Ini Cara Pakai AI untuk Cuan Setiap Hari"
-date: 2026-03-27
+date: 2026-03-26 13:30:00 +0700
 categories: [Monetization, AI Tools, Side Hustle]
 author: Anan Setiawan
 excerpt: "Ternyata cuma modal HP saja bisa dapat cuan setiap hari dengan AI! Simak 7 cara praktis yang bisa langsung Anda coba mulai hari ini."
