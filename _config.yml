@@ -12,6 +12,7 @@ author: "Anan Setiawan"
 markdown: kramdown
 theme: jekyll-theme-cayman
 plugins:
+  - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
 
@@ -38,7 +39,7 @@ stylesheets:
 footer_contact: true
 
 # Build timestamp for cache busting
-build_timestamp: "2026-03-27-00:45-IMPROVEMENTS"
+build_timestamp: "2026-03-27-sitemap-fix"
 
 # Google Search Console
 google_site_verification: VWcpWP2iU3zH7j04cC9yYAbOQlcsDkbBrHXDKVUTp5E
