@@ -354,6 +354,7 @@ main, .main-content, .page-content, .content-wrapper {
 /* Hero spacing from fixed header */
 .homepage-hero {
   margin: 20px !important;
+  margin-top: 130px !important;
 }
 
 /* Fix article page header spacing */
