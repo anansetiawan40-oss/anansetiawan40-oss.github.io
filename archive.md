@@ -9,6 +9,18 @@ permalink: /archive.html
   <p>Koleksi lengkap artikel AI Tools Guide</p>
 </div>
 
+<div class="category-filter">
+  <h3>Filter by Kategori:</h3>
+  <div class="category-tags">
+    <a href="/archive.html" class="category-tag">Semua</a>
+    <a href="/archive.html#productivity" class="category-tag">Productivity</a>
+    <a href="/archive.html#ai-tools" class="category-tag">AI Tools</a>
+    <a href="/archive.html#review" class="category-tag">Review</a>
+    <a href="/archive.html#comparison" class="category-tag">Comparison</a>
+    <a href="/archive.html#tutorial" class="category-tag">Tutorial</a>
+  </div>
+</div>
+
 <div class="archive-list">
   {% for post in site.posts %}
   <div class="archive-item">
@@ -48,6 +60,44 @@ permalink: /archive.html
 .archive-header p {
   color: #666;
   font-size: 1.1em;
+}
+
+.category-filter {
+  text-align: center;
+  margin-bottom: 40px;
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.category-filter h3 {
+  color: #155799;
+  margin-bottom: 15px;
+  font-size: 1.1em;
+}
+
+.category-tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.category-tag {
+  display: inline-block;
+  padding: 6px 14px;
+  background: #fff;
+  color: #155799;
+  text-decoration: none;
+  border-radius: 20px;
+  font-size: 0.9em;
+  border: 1px solid #155799;
+  transition: all 0.2s;
+}
+
+.category-tag:hover {
+  background: #155799;
+  color: #fff;
 }
 
 .archive-list {

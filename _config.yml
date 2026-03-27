@@ -1,11 +1,12 @@
 # Site settings
 title: "AI Tools Guide"
 email: "ansefm15@gmail.com"
-description: "Review dan panduan AI tools terbaik untuk productivity dan bisnis"
+description: "Review AI tools yang praktis, jujur, dan relevan untuk creator & bisnis kecil di Indonesia."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://anansetiawan40-oss.github.io" # the base hostname & protocol for your site
 twitter_username: ""
 github_username: "anansetiawan40-oss"
+author: "Anan Setiawan"
 
 # Build settings
 markdown: kramdown
@@ -26,6 +27,8 @@ header_links:
     url: /about.html
   - title: "📚 Archive"
     url: /archive.html
+  - title: "📬 Contact"
+    url: /contact.html
 
 # Custom CSS
 stylesheets:
@@ -35,4 +38,11 @@ stylesheets:
 footer_contact: true
 
 # Build timestamp for cache busting
-build_timestamp: "2026-03-26-13:53-SMART-SCALING"
+build_timestamp: "2026-03-27-00:45-IMPROVEMENTS"
+
+# SEO defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/og-default.png
