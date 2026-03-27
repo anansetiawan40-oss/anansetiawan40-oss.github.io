@@ -6,7 +6,7 @@ categories: [ai tools, review, comparison]
 tags: [chatgpt, claude, gemini, ai comparison, creator tools]
 author: "Anan Setiawan"
 description: "Perbandingan jujur ChatGPT, Claude, dan Gemini untuk creator dan pebisnis kecil di Indonesia. Temukan mana yang paling worth it untuk kebutuhan kamu!"
-image: /assets/hero-banner.jpg
+image: /assets/images/posts/chatgpt-vs-claude-vs-gemini-2026.png
 ---
 
 Di 2026, pilihan AI chatbot makin banyak — tapi mana yang paling cocok buat kamu sebagai creator atau pebisnis kecil di Indonesia? Yuk kita bedah tiga raksasa: **ChatGPT, Claude, dan Gemini**.
