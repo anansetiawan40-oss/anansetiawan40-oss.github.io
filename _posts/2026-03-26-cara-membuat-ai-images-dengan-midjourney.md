@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "Cara Membuat AI Images dengan Midjourney untuk Pemula"
 date: 2026-03-25
 categories: [AI Tools, Tutorial, Image Generation]

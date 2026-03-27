@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "7 AI Tools untuk Content Creation yang Wajib Dicoba di 2026"
 date: 2026-03-26 10:00:00 +0700
 categories: [Content Creation, AI Tools, Marketing]

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "Agent-to-Agent Pair Programming: Revolusi Coding dengan Dua AI Bekerja Sama"
 date: 2026-03-27
 categories: [Programming, AI, Tutorial]

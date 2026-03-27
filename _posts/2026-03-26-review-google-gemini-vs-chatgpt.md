@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "Review: Google Gemini vs ChatGPT - Mana yang Lebih Baik untuk 2026?"
 date: 2026-03-24
 categories: [AI Tools, Comparison, Review]

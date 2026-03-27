@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "Cuma Modal HP! Ini Cara Pakai AI untuk Cuan Setiap Hari"
 date: 2026-03-26 13:30:00 +0700
 categories: [Monetization, AI Tools, Side Hustle]

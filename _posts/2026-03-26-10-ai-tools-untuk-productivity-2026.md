@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "10 AI Tools untuk Productivity 2026 yang Wajib Dicoba"
 date: 2026-03-22
 categories: [Productivity, AI Tools]
