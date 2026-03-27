@@ -6,7 +6,7 @@ categories: [monetization, blogging, ai tools]
 tags: [monetisasi blog, passive income, ai blogging, adsense, affiliate marketing]
 author: "Anan Setiawan"
 description: "Panduan step-by-step monetisasi blog menggunakan AI. Cara realistis mendapatkan penghasilan pertama dari blog dalam 30 hari, bahkan dari nol!"
-image: /assets/hero-banner.jpg
+image: /assets/images/posts/monetisasi-blog-ai-30-hari.png
 ---
 
 Banyak yang bermimpi punya blog yang menghasilkan uang, tapi bingung mulai dari mana. Di 2026, dengan bantuan AI, prosesnya jauh lebih cepat dan efisien. Ini panduan realistis dari 0 ke penghasilan pertama dalam 30 hari!
