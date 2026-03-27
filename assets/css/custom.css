@@ -320,7 +320,7 @@ article,
 .page-content,
 section,
 .entry-content {
-  margin-top: 0 !important;
+  margin-top: 130px !important;
   padding-top: 0 !important;
 }
 
@@ -348,13 +348,12 @@ section,
 }
 
 main, .main-content, .page-content, .content-wrapper {
-  margin-top: 0 !important;
+  margin-top: 130px !important;
 }
 
 /* Hero spacing from fixed header */
 .homepage-hero {
   margin: 20px !important;
-  margin-top: 130px !important;
 }
 
 /* Fix article page header spacing */
