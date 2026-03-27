@@ -302,6 +302,12 @@ article li {
   height: auto;
   width: 100%;
   box-sizing: border-box;
+  cursor: grab;
+  user-select: none;
+}
+
+.page-header:active {
+  cursor: grabbing;
 }
 
 /* Ensure main content doesn't overlap with fixed header */
