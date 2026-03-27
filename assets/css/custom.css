@@ -201,36 +201,37 @@ article li {
 
 .article-image {
   width: 100%;
-  height: 180px;
+  height: 150px;
   object-fit: cover;
   background: linear-gradient(135deg, #159957 0%, #155799 100%);
 }
 
 .article-content {
-  padding: 20px;
+  padding: 12px 20px;
 }
 
 .article-title {
-  font-size: 1.3em;
-  margin-bottom: 10px;
+  font-size: 1.2em;
+  margin-bottom: 8px;
   color: #155799;
-  line-height: 1.4;
+  line-height: 1.3;
+  margin-top: 0;
 }
 
 .article-excerpt {
   color: #555;
-  line-height: 1.6;
-  margin-bottom: 15px;
-  font-size: 0.95em;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  font-size: 0.9em;
 }
 
 .article-meta {
   display: flex;
   justify-content: space-between;
-  font-size: 0.85em;
+  font-size: 0.8em;
   color: #777;
   border-top: 1px solid #eee;
-  padding-top: 15px;
+  padding-top: 10px;
 }
 
 .article-date {
