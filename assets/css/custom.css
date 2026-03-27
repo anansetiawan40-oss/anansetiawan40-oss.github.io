@@ -227,13 +227,21 @@ article li {
   border-color: #ccc;
 }
 
-.article-image {
+/* Article Image Wrapper - enforces 16:9 aspect ratio */
+.article-image-wrapper {
   width: 100%;
   aspect-ratio: 16 / 9;
+  overflow: hidden;
+  background: linear-gradient(135deg, #159957 0%, #155799 100%);
+}
+
+.article-image {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   object-position: center;
-  background: linear-gradient(135deg, #159957 0%, #155799 100%);
   display: block;
+  margin: 0;
 }
 
 .article-content {
@@ -242,12 +250,6 @@ article li {
   display: flex;
   flex-direction: column;
   margin-top: -12px;
-}
-
-.article-image {
-  margin-bottom: 0 !important;
-  display: block;
-  vertical-align: top;
 }
 
 /* Remove whitespace between image and content */
@@ -337,7 +339,7 @@ article li {
     padding: 0 16px;
   }
   
-  .article-image {
+  .article-image-wrapper {
     aspect-ratio: 4 / 5;
   }
   
