@@ -229,7 +229,7 @@ article li {
 
 .article-image {
   width: 100%;
-  aspect-ratio: 4 / 5;
+  aspect-ratio: 16 / 9;
   object-fit: cover;
   object-position: center;
   background: linear-gradient(135deg, #159957 0%, #155799 100%);
@@ -237,11 +237,11 @@ article li {
 }
 
 .article-content {
-  padding: 6px 14px 14px;
+  padding: 4px 12px 12px;
   flex: 1;
   display: flex;
   flex-direction: column;
-  margin-top: -8px;
+  margin-top: -12px;
 }
 
 .article-image {
