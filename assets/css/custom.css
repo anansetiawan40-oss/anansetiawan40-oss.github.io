@@ -300,11 +300,38 @@ article li {
   z-index: 1000;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   height: auto;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 /* Ensure main content doesn't overlap with fixed header */
 body {
-  padding-top: 110px;
+  padding-top: 120px;
+}
+
+/* ALL content sections must clear the fixed header */
+.page-header + *,
+.content-wrapper,
+main,
+.article-content,
+article,
+.homepage-hero,
+.hero-section,
+.page-content,
+section,
+.entry-content {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+/* Cover/hero images must not be hidden behind fixed header */
+.hero-image,
+.cover-image,
+.page-header + img,
+.hero,
+.cover {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
 }
 
 /* Mobile responsive header spacing */
