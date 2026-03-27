@@ -186,8 +186,10 @@ article li {
 }
 
 .article-card {
+  max-width: 420px;
+  margin: 20px auto;
   background: white;
-  border-radius: 10px;
+  border-radius: 15px;
   overflow: hidden;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
