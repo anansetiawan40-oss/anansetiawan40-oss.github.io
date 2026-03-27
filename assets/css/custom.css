@@ -201,7 +201,7 @@ article li {
 
 .article-image {
   width: 100%;
-  height: 150px;
+  height: 120px;
   object-fit: cover;
   background: linear-gradient(135deg, #159957 0%, #155799 100%);
 }
