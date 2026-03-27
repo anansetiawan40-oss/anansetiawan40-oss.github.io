@@ -5,7 +5,7 @@ date: 2026-03-27
 categories: [AI, Technology, Trends]
 author: Anan Setiawan
 excerpt: "Bukan lagi chatbot biasa! AI Agents bisa menyelesaikan tugas kompleks secara otomatis. Yuk cari tahu mengapa AI Agents jadi big deal di 2026."
-image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+image: "/assets/thumbnail-ai-agents.jpg"
 ---
 
 Kamu pasti sudah sadar kalau chatbot mulai kalah pamor? Di 2026, yang lagi naik daun adalah **AI Agents** — asisten AI yang bisa autonomously menyelesaikan tugas kompleks.

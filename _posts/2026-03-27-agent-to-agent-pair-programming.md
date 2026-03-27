@@ -5,7 +5,7 @@ date: 2026-03-27
 categories: [Programming, AI, Tutorial]
 author: Anan Setiawan
 excerpt: "Apa j kalau dua AI bisa bekerja sama sebagai pair programmer? Yang satu jadi developer, yang lain jadi reviewer. Temukan konsep terbaru Agent-to-Agent Pair Programming."
-image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+image: "/assets/thumbnail-pair-programming.jpg"
 ---
 
 Pernahkah Anda membayangkan dua AI bekerja sama untuk coding? Yang satu sebagai **developer utama** dan yang lain sebagai **reviewer**? Konsep ini bernama **Agent-to-Agent Pair Programming** dan sedang menjadi trending di dunia developer AI.

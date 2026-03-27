@@ -5,7 +5,7 @@ date: 2026-03-26 13:30:00 +0700
 categories: [Monetization, AI Tools, Side Hustle]
 author: Anan Setiawan
 excerpt: "Ternyata cuma modal HP saja bisa dapat cuan setiap hari dengan AI! Simak 7 cara praktis yang bisa langsung Anda coba mulai hari ini."
-image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+image: "/assets/thumbnail-cuan-hp.jpg"
 ---
 
 ![AI untuk Cuan dengan HP](https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80)

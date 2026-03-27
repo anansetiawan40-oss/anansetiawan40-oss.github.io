@@ -10,6 +10,8 @@ description: "Review dan panduan AI tools terbaik untuk productivity dan bisnis"
   <p class="section-description">Update terbaru seputar AI tools dan teknologi</p>
 </div>
 
+![AI Tools Guide Hero Banner](/assets/hero-banner.jpg)
+
 {% include article-cards.html %}
 
 <div class="categories-section">
