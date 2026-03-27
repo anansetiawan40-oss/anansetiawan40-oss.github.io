@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "AI Agents: Mengapa Mereka Jadi Game-Changer di 2026"
 date: 2026-03-27
 categories: [AI, Technology, Trends]
