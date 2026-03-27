@@ -40,6 +40,9 @@ footer_contact: true
 # Build timestamp for cache busting
 build_timestamp: "2026-03-27-00:45-IMPROVEMENTS"
 
+# Google Search Console
+google_site_verification: ZKPLHuD3ksY6w4h3UfDmPyKYonWIKTsEuAGurj1aoEE
+
 # SEO defaults
 defaults:
   - scope:
