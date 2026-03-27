@@ -246,6 +246,19 @@ article li {
 
 .article-image {
   margin-bottom: 0 !important;
+  display: block;
+  vertical-align: top;
+}
+
+/* Remove whitespace between image and content */
+.article-card {
+  font-size: 0;
+  line-height: 0;
+}
+
+.article-card > * {
+  font-size: initial;
+  line-height: normal;
 }
 
 .article-title {
