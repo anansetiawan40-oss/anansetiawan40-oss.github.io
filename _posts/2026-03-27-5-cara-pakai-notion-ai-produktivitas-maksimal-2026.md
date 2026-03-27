@@ -6,7 +6,7 @@ categories: [productivity, ai tools, tutorial]
 tags: [notion, notion ai, produktivitas, workspace, tutorial]
 author: "Anan Setiawan"
 description: "Panduan lengkap memanfaatkan Notion AI untuk meningkatkan produktivitas kerja. Dari auto-summary sampai pembuatan konten otomatis, semua ada di sini!"
-image: /assets/hero-banner.jpg
+image: /assets/images/posts/notion-ai-produktivitas-2026.png
 ---
 
 Notion sudah jadi andalan jutaan profesional untuk manajemen kerja. Tapi dengan hadirnya **Notion AI**, produktivitas kamu bisa naik level drastis. Ini 5 cara terbaik memanfaatkannya!
