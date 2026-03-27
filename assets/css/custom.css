@@ -1,25 +1,25 @@
 /* Custom CSS for PERFECT button alignment */
 .site-nav {
-  margin: 15px 0;
+  margin: 6px 0;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 8px;
   flex-wrap: wrap;
 }
 
 .site-nav .btn {
   display: inline-block;
-  padding: 7px 14px;
+  padding: 5px 12px;
   background-color: #0366d6;
   color: white;
   text-decoration: none;
   border-radius: 4px;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 500;
   transition: all 0.2s ease;
-  min-width: 90px;
+  min-width: 80px;
   text-align: center;
   flex: 0 0 auto;
 }
@@ -37,12 +37,12 @@
 
 /* Blog title as home link - COMPACT */
 .project-name {
-  margin-bottom: 5px;
+  margin-bottom: 3px;
 }
 
 .project-name a {
   transition: color 0.3s;
-  font-size: 1.8em;
+  font-size: 1.4em;
 }
 
 .project-name a:hover {
@@ -51,8 +51,8 @@
 }
 
 .project-tagline {
-  margin-top: 5px;
-  font-size: 1.1em;
+  margin-top: 3px;
+  font-size: 0.9em;
 }
 
 /* Mobile responsive - PERFECT 3-BUTTON FIT */
@@ -291,7 +291,7 @@ article li {
 /* Fix header background solid - prevents overlap look */
 .page-header {
   background-color: #159957 !important;
-  padding: 20px;
+  padding: 10px 20px;
   position: fixed;
   top: 0;
   left: 0;
@@ -303,19 +303,19 @@ article li {
 
 /* Ensure main content doesn't overlap with fixed header */
 body {
-  padding-top: 160px;
+  padding-top: 110px;
 }
 
 /* Mobile responsive header spacing */
 @media screen and (max-width: 768px) {
   body {
-    padding-top: 180px;
+    padding-top: 120px;
   }
 }
 
 @media screen and (max-width: 480px) {
   body {
-    padding-top: 200px;
+    padding-top: 130px;
   }
 }
 
@@ -330,7 +330,7 @@ main, .main-content, .page-content, .content-wrapper {
 
 /* Fix article page header spacing */
 .article-content, article {
-  padding-top: 100px !important;
+  padding-top: 80px !important;
 }
 
 /* Better spacing for all content */
