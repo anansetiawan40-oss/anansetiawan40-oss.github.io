@@ -4,7 +4,8 @@ title: "7 AI Tools untuk Bikin Konten Viral di Sosmed 2026"
 date: 2026-03-27 14:00:00 +0700
 categories: [Content Creation, AI Tools, Social Media]
 author: Anan Setiawan
-excerpt: "Mau konten sosmed kamu viral? Coba 7 AI tools ini yang bisa bantu dari ideasi sampai analisis. Cocok buat creator Indonesia yang mau grow followers tanpa ribet!"
+excerpt: "Mau konten sosmed kamu viral? Coba 7 AI tools ini yang bisa bantu dari ideasi sampai analisis. Cocok buat creator Indonesia yang mau grow followers tanpa ribet! Tutorial praktis ChatGPT, Canva, CapCut untuk TikTok dan IG 2026."
+tags: [AI tools, konten viral, social media, creator Indonesia, TikTok AI]
 image: "/assets/thumbnail-ai-konten-viral.jpg"
 ---
 

@@ -48,4 +48,11 @@ defaults:
   - scope:
       path: ""
     values:
-      image: /assets/images/og-default.png
+      image: /assets/hero-banner.jpg
+      keywords: "AI tools Indonesia, tutorial AI, content creation AI, monetisasi AI, tools AI 2026, creator tools"
+      og_image: /assets/hero-banner.jpg
+      twitter_card: summary_large_image
+
+# Open Graph and Twitter Cards
+og_image: /assets/hero-banner.jpg
+twitter_image: /assets/hero-banner.jpg
