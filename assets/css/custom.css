@@ -286,6 +286,33 @@ article li {
   }
 }
 
+/* Fix header background solid - prevents overlap look */
+.page-header {
+  background-color: #159957 !important;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Ensure main content doesn't overlap with fixed header */
+main, .main-content, .page-content {
+  margin-top: 180px !important;
+}
+
+/* Hero spacing from fixed header */
+.homepage-hero {
+  margin-top: 180px !important;
+}
+
+/* Fix article page header spacing */
+.article-content, article {
+  padding-top: 100px !important;
+}
+
 /* Better spacing for all content */
 h1, h2, h3, h4, h5, h6 {
   margin-top: 1.5em;
