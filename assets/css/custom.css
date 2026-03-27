@@ -296,16 +296,34 @@ article li {
   right: 0;
   z-index: 1000;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  height: auto;
 }
 
 /* Ensure main content doesn't overlap with fixed header */
-main, .main-content, .page-content {
-  margin-top: 180px !important;
+body {
+  padding-top: 160px;
+}
+
+/* Mobile responsive header spacing */
+@media screen and (max-width: 768px) {
+  body {
+    padding-top: 180px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    padding-top: 200px;
+  }
+}
+
+main, .main-content, .page-content, .content-wrapper {
+  margin-top: 0 !important;
 }
 
 /* Hero spacing from fixed header */
 .homepage-hero {
-  margin-top: 180px !important;
+  margin-top: 20px !important;
 }
 
 /* Fix article page header spacing */
