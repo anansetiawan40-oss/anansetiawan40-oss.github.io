@@ -179,47 +179,68 @@ article li {
 
 /* Article Cards */
 .article-card {
-  max-width: 420px;
-  margin: 15px auto;
-  background: white;
-  border-radius: 15px;
+  width: 100%;
+  max-width: 440px;
+  margin: 0;
+  background: #fff;
+  border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  border: 1px solid #eaeaea;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  border: 1px solid #e8e8e8;
+  display: flex;
+  flex-direction: column;
 }
 
-/* Compact Article Grid */
+/* Article Grid - 2 columns for tablet/desktop, 1 column for mobile */
 .article-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
-  margin: 20px auto;
-  max-width: 900px;
-  justify-items: center;
+  gap: 24px;
+  margin: 24px auto;
+  max-width: 960px;
+  padding: 0 16px;
+  box-sizing: border-box;
 }
 
-@media (max-width: 600px) {
+/* Tablet breakpoint */
+@media (max-width: 768px) {
+  .article-grid {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 700px;
+    gap: 16px;
+  }
+}
+
+/* Mobile breakpoint - 1 column */
+@media (max-width: 540px) {
   .article-grid {
     grid-template-columns: 1fr;
     max-width: 480px;
+    gap: 20px;
   }
 }
 
 .article-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+  border-color: #ccc;
 }
 
 .article-image {
   width: 100%;
-  height: 100px;
+  height: 180px;
   object-fit: cover;
+  object-position: center;
   background: linear-gradient(135deg, #159957 0%, #155799 100%);
+  display: block;
 }
 
 .article-content {
-  padding: 15px 18px;
+  padding: 18px 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 .article-title {
@@ -294,10 +315,19 @@ article li {
   .article-grid {
     grid-template-columns: 1fr;
     gap: 20px;
+    padding: 0 16px;
   }
   
   .article-image {
-    height: 160px;
+    height: 180px;
+  }
+  
+  .article-card {
+    max-width: 100%;
+  }
+  
+  .article-content {
+    padding: 16px 18px;
   }
 }
 
