@@ -2,7 +2,7 @@
 layout: post
 title: "Cara Pakai AI untuk Trading Saham: Risiko dan Peluangnya"
 date: 2026-03-29 12:00:00 +0700
-categories: [Teknologi, Keuangan]
+categories: [bisnis]
 image: /assets/img/posts/2026-03-29-cara-pakai-ai-untuk-trading-saham.png
 ---
 
