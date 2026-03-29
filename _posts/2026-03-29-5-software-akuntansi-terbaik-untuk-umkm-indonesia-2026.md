@@ -2,7 +2,7 @@
 layout: post
 title: "5 Software Akuntansi Terbaik untuk UMKM Indonesia 2026: Kelola Keuangan Jadi Mudah"
 date: 2026-03-29 08:00:00 +0700
-categories: [Bisnis, Software]
+categories: [bisnis]
 image: /images/2026-03-29-software-akuntansi-umkm.jpg
 tags: [akuntansi, umkm, software bisnis, laporan keuangan, keuangan]
 ---
