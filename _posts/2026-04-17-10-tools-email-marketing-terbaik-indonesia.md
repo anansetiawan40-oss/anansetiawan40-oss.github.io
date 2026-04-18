@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "10 Tools Email Marketing Terbaik untuk Bisnis Indonesia 2026"
-date: 2024-04-17 08:00:00 +0700
+date: 2026-04-17 08:00:00 +0700
 categories: Bisnis
 image: /images/2026-04-17-email-marketing-tools.jpg
 ---

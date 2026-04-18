@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cara Buat Landing Page High-Converting dengan AI"
-date: 2024-04-17 12:00:00 +0700
+date: 2026-04-17 12:00:00 +0700
 categories: Tutorial
 image: /images/2026-04-17-landing-page-ai.jpg
 ---
